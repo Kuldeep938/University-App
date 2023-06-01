@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/B" />
+
+        <TextView
+            android:id="@+id/forgotPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|right"
+            android:layout_marginTop="-40dp"
+            android:text="Change Password"
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_blue_dark" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/profileTextView"
+        android:layout_width="match_parent"
+        android:layout_below="@id/linearLayout"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <ListView
+        android:id="@+id/profileListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/profileTextView"
+        android:layout_marginTop="16dp" />
+
+
+</RelativeLayout>

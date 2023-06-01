@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MU Study Life</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="announcement">Announcement</string>
+    <string name="attendance">Attendance</string>
+    <string name="calendar">Calendar</string>
+    <string name="course">Course</string>
+    <string name="faculty">Faculty</string>
+    <string name="performance">Grades</string>
+    <string name="mahindra_university">Mahindra University</string>
+    <string name="back">Back</string>
+    <string name="B">Back</string>
+    <string name="A">Back</string>
+    <string name="c">Back</string>
+    <string name="k">Back</string>
+    <string name="d">Back</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="profile">Profile</string>
+    <string name="upload">Upload</string>
+    <string name="faculty_name">Faculty Name</string>
+    <string name="announcement_description">Description</string>
+</resources>
